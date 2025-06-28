@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590216398315",
+    "project_id": "cryptopulse-adold",
+    "storage_bucket": "cryptopulse-adold.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590216398315:android:960b5919fe43bded32c5ae",
+        "android_client_info": {
+          "package_name": "com.adold.cryptopulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9xWtPvB-EP4Gv5AMn63CHI78Z4Zvsg8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590216398315:android:1da3f0c67fc6f1ec32c5ae",
+        "android_client_info": {
+          "package_name": "com.example.appproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9xWtPvB-EP4Gv5AMn63CHI78Z4Zvsg8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
