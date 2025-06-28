@@ -226,15 +226,15 @@ class _CryptoDetailPageState extends State<CryptoDetailPage> {
                         ],
                       ),
                       child: CircleAvatar(
-                        radius: 35,
-                        backgroundColor: Colors.transparent,
+                        radius: 30,
+                        backgroundColor: Color(0xFF1B232A),
                         backgroundImage:
                             widget.crypto.imageUrl.endsWith('.svg') ? null : NetworkImage(widget.crypto.imageUrl),
                         child: widget.crypto.imageUrl.endsWith('.svg')
                             ? Image.network(
                                 widget.crypto.imageUrl,
-                                width: 40,
-                                height: 40,
+                                width: 30,
+                                height: 30,
                                 fit: BoxFit.contain,
                               )
                             : null,
@@ -244,7 +244,7 @@ class _CryptoDetailPageState extends State<CryptoDetailPage> {
                     Text(
                       "${widget.crypto.name} (${widget.crypto.symbol.toUpperCase()})",
                       style: const TextStyle(
-                        fontSize: 22,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
                         letterSpacing: 1.1,
@@ -255,7 +255,7 @@ class _CryptoDetailPageState extends State<CryptoDetailPage> {
                     Text(
                       "Price: \$${widget.crypto.price.toStringAsFixed(5)}",
                       style: const TextStyle(
-                        fontSize: 20,
+                        fontSize: 18,
                         color: Colors.greenAccent,
                         fontWeight: FontWeight.bold,
                       ),
@@ -264,7 +264,7 @@ class _CryptoDetailPageState extends State<CryptoDetailPage> {
                     Text(
                       "24h Change: ${widget.crypto.changePercent >= 0 ? '+' : ''}${widget.crypto.changePercent.toStringAsFixed(2)}%",
                       style: TextStyle(
-                        fontSize: 18,
+                        fontSize: 15,
                         fontWeight: FontWeight.w600,
                         color: widget.crypto.changePercent >= 0 ? Colors.greenAccent : Colors.redAccent,
                       ),
