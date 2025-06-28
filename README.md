@@ -27,7 +27,7 @@
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/cryptoPulse.git
+    git clone https://github.com/ado1d/Android-Project-SWE250
     ```
 
 2. **Navigate into the project directory:**
@@ -53,7 +53,7 @@ lib/
 ├── main.dart
 ├── models/ # Data models
 ├── pages/ # Screens and views
-├── services/ # API calls and data services
+├── services/ # auth services
 ├── widgets/ # Reusable UI components
 
 
