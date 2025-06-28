@@ -49,12 +49,14 @@
     ```
 
 ## 📂 Project Structure
-lib/
-├── main.dart
-├── models/ # Data models
-├── pages/ # Screens and views
-├── services/ # auth services
-├── widgets/ # Reusable UI components
+```
+    lib/
+    ├── main.dart
+    ├── models/ # Data models
+    ├── pages/ # Screens and views
+    ├── services/ # auth services
+    ├── widgets/ # Reusable UI components
+```
 
 
 ## 🌟 Acknowledgments
